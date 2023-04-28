@@ -14,7 +14,7 @@ function App() {
           <Profile />
         </Grid>
         <Grid item xs>
-          <Router>
+          <Router basename="/profile">
             <Header />
             <div className="main-content">
               <Routes>
@@ -23,6 +23,7 @@ function App() {
               </Routes>
             </div>
           </Router>
+
           <Footer />
         </Grid>
       </Grid>

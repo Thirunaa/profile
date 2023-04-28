@@ -24,7 +24,7 @@ function Portfolio() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <Grid container spacing={1} className="section pb_45">
+    <Grid container className="section pb_45">
       <Grid item className="section_title mb_20">
         <span></span>
         <h2>Portfolio</h2>
@@ -95,7 +95,13 @@ function Portfolio() {
         </DialogContent>
         <DialogActions className={classes.dialogbox_actions}>
           {isOpen?.links?.map((link) => (
-            <a key={link.link} href={link.link} target="_blank" rel="noreferrer" className={classes.dialogbox_icon}>
+            <a
+              key={link.link + isOpen.imageUrl}
+              href={link.link}
+              target="_blank"
+              rel="noreferrer"
+              className={classes.dialogbox_icon}
+            >
               {" "}
               {link.icon}
             </a>
