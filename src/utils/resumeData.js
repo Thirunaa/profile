@@ -18,31 +18,37 @@ const data = {
     {
       link: "https://github.com/Thirunaa",
       text: "Github",
+      profile: "Thirunaa",
       icon: <GitHubIcon />,
     },
     {
       link: "https://www.linkedin.com/in/thirunaavukkarasu/",
       text: "LinkedIn",
+      profile: "Thirunaavukkarasu",
       icon: <LinkedInIcon />,
     },
     {
       link: "https://leetcode.com/Thiru_Mv/",
       text: "Leetcode",
+      profile: "Thiru_Mv",
       icon: <CodeIcon />,
     },
     {
       link: "https://thirunaa.github.io/",
       text: "Website",
+      profile: "Thirunaa",
       icon: <LanguageIcon />,
     },
     {
       link: "https://twitter.com/Thirunaa04",
       text: "Twitter",
+      profile: "Thirunaa",
       icon: <TwitterIcon />,
     },
     {
       link: "https://www.youtube.com/@hashmap01",
       text: "Youtube",
+      profile: "Thirunaa",
       icon: <YouTube />,
     },
   ],
@@ -111,7 +117,7 @@ const data = {
         "I know Thirunaavukkarasu for last 3 years, he is willing to work on emerging technologies and ready to take any challenging task.Very good at logical thinking.",
     },
     {
-      name: "Jaani Fransis",
+      name: "Jaani Francis",
       role: "Cloud Engineer at Jetstar Asia Airways",
       date: "June 14 2020",
       imageUrl:
@@ -120,7 +126,7 @@ const data = {
         "Thirunaavukkarasu is a self-motivated and hard-working person. I've known him for quite sometime - from the time he was my student to the time when he was one of the software developer in our initial startup. Fresh out of college, he showed a lot of interest in learning the android tech stack then. He would go lengths to explore a better solution. I would definitely recommend Thirunaavukkarasu as a capable and efficient developer. Also, would definitely reach out to him first when I plan to start any new ventures.",
     },
     {
-      name: " Gowtham",
+      name: "Gowtham",
       role: "Sr. Data Scientist and MLOps Engineer at Great Learning",
       date: "July 6 2020",
       imageUrl:
@@ -139,69 +145,101 @@ const data = {
 
   projects: [
     {
+      tag: "React",
+      caption: "Hashmap - DSA Prep website for students",
+      imageUrl: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220507102444/How-to-Start-Leaning-DSA.jpg",
+      title: "Hashmap - DSA prep Website",
+      description:
+        " DSA Prep website for students with 90 problems solved, with link to notes and video of 75+ hours of watch time",
+      links: [
+        // { link: "https://www.google.com", icon: <YouTube /> },
+        { link: "https://github.com/Thirunaa/dsawebsite", icon: <GitHubIcon /> },
+        { link: "https://thirunaa.github.io/dsawebsite/", icon: <LanguageIcon /> },
+      ],
+    },
+    {
       tag: "Data Analysis",
-      caption: "A short Description about the project",
+      caption: "Employee retention data analysis, with the employee tenure data.",
       imageUrl: "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg",
       title: "Employee retention data analysis",
       description:
         " The employee tenure and retention data of company was taken and was analysis using various data analysis techniques.",
       links: [
         // { link: "https://www.google.com", icon: <YouTube /> },
-        { link: "https://www.github.com", icon: <GitHubIcon /> },
-        { link: "https://www.github.com", icon: <LanguageIcon /> },
+        {
+          link: "https://www.kaggle.com/code/thirunaavukkarasu/random-forest-84-accuracy/notebook",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "https://www.kaggle.com/code/thirunaavukkarasu/random-forest-84-accuracy/notebook",
+          icon: <LanguageIcon />,
+        },
       ],
     },
     {
       tag: "Machine Learning",
-      caption: "A short Description about the project",
+      caption: "Recommendation System build using TV lens data.",
       imageUrl:
         "https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/06/machine-learning-project-movie-recommendation-system.jpg",
       title: "Recommendation System",
       description:
-        " The employee tenure and retention data of company was taken and was analysis using various data analysis techniques.",
+        " Recommendation System build using TV lens data. Using techniques like Collabrative filtering, Content based recommendation movies are recommeded to users with their taste and similar users data. ",
       links: [
         // { link: "https://www.google.com", icon: <YouTube /> },
-        { link: "https://www.github.com", icon: <GitHubIcon /> },
-        { link: "https://www.github.com", icon: <LanguageIcon /> },
+        {
+          link: "https://github.com/Thirunaa/Data-Science-and-Machine-Learning/tree/master/Recommendation_System",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "https://github.com/Thirunaa/Data-Science-and-Machine-Learning/tree/master/Recommendation_System",
+          icon: <LanguageIcon />,
+        },
       ],
     },
     {
       tag: "Python",
-      caption: "A short Description about the project",
+      caption: "A simple search autocomplete using Tries",
       imageUrl: "https://iq.opengenus.org/content/images/2019/12/download--2-.png",
       title: "Autocomplete system",
       description:
-        " The employee tenure and retention data of company was taken and was analysis using various data analysis techniques.",
+        " A simple search autocomplete using Tries. Tries data structures efficiency and design is used to build autocomplete system with efficient performance.",
       links: [
         // { link: "https://www.google.com", icon: <YouTube /> },
-        { link: "https://www.github.com", icon: <GitHubIcon /> },
-        { link: "https://www.github.com", icon: <LanguageIcon /> },
+        {
+          link: "https://github.com/Thirunaa/Design-6/blob/master/Design%20Search%20Autocomplete%20System.py",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "https://github.com/Thirunaa/Design-6/blob/master/Design%20Search%20Autocomplete%20System.py",
+          icon: <LanguageIcon />,
+        },
       ],
     },
     {
       tag: "Python",
-      caption: "A short Description about the project",
+      caption: "A personal assistant build using NLTK",
       imageUrl: "https://www.interviewbit.com/blog/wp-content/uploads/2021/07/Python-Projects-800x391.png",
       title: "Personal Assistant",
       description:
-        " The employee tenure and retention data of company was taken and was analysis using various data analysis techniques.",
+        " A personal assistant build using NLTK and web selenium which does web search and replies to us about the questions we ask.",
       links: [
         // { link: "https://www.google.com", icon: <YouTube /> },
-        { link: "https://www.github.com", icon: <GitHubIcon /> },
-        { link: "https://www.github.com", icon: <LanguageIcon /> },
+        { link: "https://github.com/Thirunaa/Python/tree/master/Personal_Assistant", icon: <GitHubIcon /> },
+        { link: "https://github.com/Thirunaa/Python/tree/master/Personal_Assistant", icon: <LanguageIcon /> },
       ],
     },
     {
       tag: "React",
-      caption: "A short Description about the project",
-      imageUrl: "https://www.interviewbit.com/blog/wp-content/uploads/2021/12/React-Projects.png",
+      caption: "Ticketify - One stop shop for booking tickets",
+      imageUrl:
+        "https://cdn.slidesharecdn.com/ss_thumbnails/ticketmasterataglance-170828215112-thumbnail.jpg?width=640&height=640&fit=bounds",
       title: "Ticketify",
       description:
-        " The employee tenure and retention data of company was taken and was analysis using various data analysis techniques.",
+        " Ticketify - One stop shop for booking tickets. This web applications is built using Ticket master API. You can book tickets for events, venues and attractions using this applicaition. ",
       links: [
         // { link: "https://www.google.com", icon: <YouTube /> },
-        { link: "https://www.github.com", icon: <GitHubIcon /> },
-        { link: "https://www.github.com", icon: <LanguageIcon /> },
+        { link: "https://github.com/Thirunaa/ticketify", icon: <GitHubIcon /> },
+        { link: "https://thirunaa.github.io/ticketify/", icon: <LanguageIcon /> },
       ],
     },
     {
@@ -213,8 +251,8 @@ const data = {
         " The employee tenure and retention data of company was taken and was analysis using various data analysis techniques.",
       links: [
         // { link: "https://www.google.com", icon: <YouTube /> },
-        { link: "https://www.github.com", icon: <GitHubIcon /> },
-        { link: "https://www.github.com", icon: <LanguageIcon /> },
+        { link: "https://github.com/Thirunaa/tvmaze", icon: <GitHubIcon /> },
+        { link: "https://thirunaa.github.io/tvmaze/", icon: <LanguageIcon /> },
       ],
     },
   ],

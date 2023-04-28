@@ -36,7 +36,7 @@ function Profile() {
           <CustomTimelineItem key="Title" title="Title" text={jobtitle} />
           <CustomTimelineItem key="Email" title="Email" text={email} />
           {social.map((key) => (
-            <CustomTimelineItem key={key.text} title={key.text} text={key.text} link={key.link} />
+            <CustomTimelineItem key={key.text} title={key.text} text={key.profile} link={key.link} />
           ))}
         </CustomTimeline>
         <br />
