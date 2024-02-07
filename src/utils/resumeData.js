@@ -58,8 +58,14 @@ const data = {
 
   experiences: [
     {
+      title: "Software Engineer",
+      date: "Aug 2023 - Present",
+      description:
+        "•	Working as a Python developer at a front runner AI company, solving highly challenging problems in the preparation of training datasets for the Large Language Model, and also contributing in an internal tool front end development \n\n •	Developed of a browser extension to automate dataset checks, significantly decreasing manual workload. Employing prompt engineering along with reinforcement learning to generate efficient dataset for tuning the Large Language Model",
+    },
+    {
       title: "Teaching Assistant",
-      date: "Aug 2022 - Present",
+      date: "Aug 2022 - May 2023",
       description:
         "•	Worked as Graduate Teaching Assistant under Prof. Shucheng Yu for course Applied Machine Learning, holding office hours, clarifying students’ questions, and grading students’ mid-term exam and final project \n\n •	Working as Graduate Teaching Assistant under Prof. Jingyi Sun for course Web Mining, conducting office hours, clarifying students’ questions, and grading students’ mid-term and final project report and presentation",
     },
@@ -100,6 +106,15 @@ const data = {
 
   recommendations: [
     {
+      name: "Jingyi Sun",
+      role: "Assistant Professor at Stevens Institute of Technology",
+      date: "June 12 2023",
+      imageUrl:
+        "https://media.licdn.com/dms/image/C5603AQFg2cIcYoKIAA/profile-displayphoto-shrink_100_100/0/1631366384782?e=1712793600&v=beta&t=ikqC7ylT8JE3FXYCw4cdPbKmMjcZOVO3cCLeFgNorO8",
+      detail:
+        "Thiru has been my RA for summer research and TA for the web mining class for two semesters. I am very impressed by his technical skills and working ethics. He did a fantastic job with both roles. He has excellent knowledge and skills of data analytics. He’s able to independently tackle data retrieval and processing problems in differnce practical situations. Most importantly, Thiru is a reliable and responsible co-worker. I think this is a very important quality.",
+    },
+    {
       name: "Gopi",
       role: "Technology Education Team Lead at Accenture",
       date: "October 11 2020",
@@ -125,22 +140,13 @@ const data = {
       detail:
         "Thirunaavukkarasu is a self-motivated and hard-working person. I've known him for quite sometime - from the time he was my student to the time when he was one of the software developer in our initial startup. Fresh out of college, he showed a lot of interest in learning the android tech stack then. He would go lengths to explore a better solution. I would definitely recommend Thirunaavukkarasu as a capable and efficient developer. Also, would definitely reach out to him first when I plan to start any new ventures.",
     },
-    {
-      name: "Gowtham",
-      role: "Sr. Data Scientist and MLOps Engineer at Great Learning",
-      date: "July 6 2020",
-      imageUrl:
-        "https://media.licdn.com/dms/image/C5603AQFAFX_MfcAhlA/profile-displayphoto-shrink_400_400/0/1621874765265?e=1687996800&v=beta&t=JuPKQhp37OEWFjpfF4SvOAqgGyc6JgyYhSKx3p4K7OU",
-      detail:
-        "Thiru!! is a good programmer, fast interms of coding. Very good in understanding the concepts and a creative thinker. Had great time in studying Machine Learning course along with him and had lots of fun while doing projects together. Hope to see him become a great researcher in Data Science soon👍",
-    },
   ],
 
   skills: [
     { title: "Front-End", description: ["ReactJS", "Javascript", "TypeScript", "Bootstrap", "Material UI"] },
     { title: "Back-End", description: ["NodeJS", "Java", "Python", "J2EE"] },
-    { title: "Databases", description: ["PostgreSQL", "DB2", "MongoDB", "Firebase"] },
-    { title: "Version Control", description: ["Git", "GitHub"] },
+    { title: "Databases", description: ["PostgreSQL", "MySQL", "DB2", "MongoDB", "Firebase"] },
+    { title: "Version Control and Other tools", description: ["Git", "GitHub", "Kuberenetes", "Docker"] },
   ],
 
   projects: [
