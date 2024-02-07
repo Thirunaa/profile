@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.ef4809cd.css",
-    "main.js": "/profile/static/js/main.9826ff6b.js",
-    "static/js/787.f2a0fa2f.chunk.js": "/profile/static/js/787.f2a0fa2f.chunk.js",
+    "main.css": "/profile/static/css/main.44ae06db.css",
+    "main.js": "/profile/static/js/main.f05aa178.js",
+    "static/js/592.d452309a.chunk.js": "/profile/static/js/592.d452309a.chunk.js",
     "static/media/BackgroundImage.jpg": "/profile/static/media/BackgroundImage.685296bfafdb21fc8cb9.jpg",
-    "static/media/Thirunaavukkarasu_Murugesan_Resume.pdf": "/profile/static/media/Thirunaavukkarasu_Murugesan_Resume.f0ce0cd4d94159833540.pdf",
+    "static/media/Thirunaavukkarasu_Murugesan_Resume.pdf": "/profile/static/media/Thirunaavukkarasu_Murugesan_Resume.4bd2afbd96307a3aaba9.pdf",
     "static/media/ProfilePic.jpg": "/profile/static/media/ProfilePic.ef17a310e854e221275e.jpg",
     "index.html": "/profile/index.html",
-    "main.ef4809cd.css.map": "/profile/static/css/main.ef4809cd.css.map",
-    "main.9826ff6b.js.map": "/profile/static/js/main.9826ff6b.js.map",
-    "787.f2a0fa2f.chunk.js.map": "/profile/static/js/787.f2a0fa2f.chunk.js.map"
+    "main.44ae06db.css.map": "/profile/static/css/main.44ae06db.css.map",
+    "main.f05aa178.js.map": "/profile/static/js/main.f05aa178.js.map",
+    "592.d452309a.chunk.js.map": "/profile/static/js/592.d452309a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef4809cd.css",
-    "static/js/main.9826ff6b.js"
+    "static/css/main.44ae06db.css",
+    "static/js/main.f05aa178.js"
   ]
 }
