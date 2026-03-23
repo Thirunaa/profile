@@ -46,7 +46,7 @@ function PronunciationBadge() {
   const speak = useCallback(() => {
     if (!window.speechSynthesis) return;
     window.speechSynthesis.cancel();
-    const utter = new SpeechSynthesisUtterance('Thiru');
+    const utter = new SpeechSynthesisUtterance('Theeru');
     utter.rate = 0.85;
     utter.pitch = 0.9;
     utter.volume = 1;
@@ -87,7 +87,7 @@ function PronunciationBadge() {
         </Box>
         {' '}—{' '}
         <Box component="span" sx={{ color: '#888888', fontStyle: 'italic', letterSpacing: '0.04em' }}>
-          /Thee · Ru/
+          /Thi · ru/
         </Box>
       </Typography>
       <Box
