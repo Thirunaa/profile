@@ -168,7 +168,7 @@ function HeroSection() {
               sx={{ color: '#999999', maxWidth: 560, mb: 5, lineHeight: 1.8 }}
             >
               Leading LLM evaluation, RLHF pipelines, and AI delivery at Turing. MS Computer
-              Science @ Stevens Institute of Technology. 7+ years of experience across enterprise
+              Science @ Stevens Institute of Technology. 8+ years of experience across enterprise
               engineering, full-stack development, and frontier AI systems.
             </Typography>
 

@@ -22,7 +22,7 @@ What differentiates my work is operating at the intersection of engineering, pro
 This means acting less like a traditional engineer and more like a technical partner embedded with AI teams — owning problems end-to-end and driving execution with a bias for speed.`,
   stats: [
     { label: "Years Experience", value: "8+" },
-    { label: "Trainers Managed", value: "150+" },
+    { label: "Developers, Coding Experts & Annotators Managed", value: "200+" },
     { label: "Frontier LLM Models", value: "4" },
     { label: "Students Mentored", value: "25+" },
   ],
