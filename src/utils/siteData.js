@@ -23,10 +23,10 @@ This means acting less like a traditional engineer and more like a technical par
   stats: [
     { label: "Years Experience", value: "8+" },
     { label: "Developers, Coding Experts & Annotators Managed", value: "200+" },
-    { label: "Frontier LLM Models Trained & Shipped", value: "4" },
+    { label: "Frontier LLM Models Trained", value: "4" },
     { label: "Students Mentored", value: "25+" },
   ],
-  resumeUrl: "",  // TODO: paste your resume URL here (Google Drive, Dropbox, etc.)
+  resumeUrl: "/profile/Thirunaavukkarasu_Murugesan_Resume.pdf",
   socials: {
     github: "https://github.com/Thirunaa",
     linkedin: "https://www.linkedin.com/in/thirunaavukkarasu/",
