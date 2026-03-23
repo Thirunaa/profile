@@ -9,9 +9,9 @@ import { YouTube } from "@material-ui/icons";
 
 const data = {
   name: "Thirunaavukkarasu Murugesan",
-  title: "Software Developer | Full Stack Developer",
+  title: "Delivery Engineering Manager",
   university: "Stevens Institute of Technology",
-  place: "Jersey City, New Jersey",
+  place: "Little Elm, Texas, United States",
   email: "tmuruges@stevens.edu",
   phone: "5517861733",
   social: [

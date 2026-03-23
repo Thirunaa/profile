@@ -3,7 +3,7 @@ import "../App.css";
 import PersonOutlineOutlinedIcon from "@material-ui/icons/PersonOutlineOutlined";
 import { Typography } from "@material-ui/core";
 import { useStyles } from "../styles/ProfileStyles.js";
-import ProfilePic from "../assets/images/ProfilePic.jpg";
+import ProfilePic from "../assets/images/ProfilePic.jpeg";
 import CustomTimeline from "./CustomTimeline.js";
 import CustomTimelineItem from "./CustomTimelineItem";
 import resumeData from "../utils/resumeData.js";
