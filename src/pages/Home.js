@@ -5,7 +5,7 @@ import {
 } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import TwitterIcon from '@mui/icons-material/Twitter';
+// TwitterIcon replaced with inline X icon
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
@@ -177,7 +177,14 @@ function HeroSection() {
               {[
                 { icon: <GitHubIcon />, href: profile.socials.github, label: 'GitHub' },
                 { icon: <LinkedInIcon />, href: profile.socials.linkedin, label: 'LinkedIn' },
-                { icon: <TwitterIcon />, href: profile.socials.twitter, label: 'Twitter' },
+                {
+                  icon: (
+                    <Box component="span" sx={{ fontWeight: 900, fontSize: '1rem', lineHeight: 1, fontFamily: 'serif' }}>
+                      𝕏
+                    </Box>
+                  ),
+                  href: profile.socials.twitter, label: 'X',
+                },
                 { icon: <EmailIcon />, href: `mailto:${profile.email}`, label: 'Email' },
               ].map((s) => (
                 <IconButton
@@ -224,6 +231,23 @@ function HeroSection() {
               >
                 Get in Touch
               </Button>
+              {profile.resumeUrl && (
+                <Button
+                  variant="outlined"
+                  component="a"
+                  href={profile.resumeUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  sx={{
+                    px: 4,
+                    borderColor: '#444',
+                    color: '#aaaaaa',
+                    '&:hover': { borderColor: '#ffc500', color: '#ffc500', background: 'rgba(255,197,0,0.06)' },
+                  }}
+                >
+                  Download Resume
+                </Button>
+              )}
             </Box>
           </Grid>
 
