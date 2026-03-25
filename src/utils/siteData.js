@@ -593,10 +593,19 @@ export const portfolio = [
 
 export const recommendations = [
   {
+    name: "Mohammed Sheriff",
+    title: "Delivery Engineering Manager",
+    company: "Turing",
+    avatar: "https://media.licdn.com/dms/image/v2/D5603AQF7LlIxQKxjzA/profile-displayphoto-scale_100_100/B56ZpOqETHKwAc-/0/1762256249820?e=1776297600&v=beta&t=W1afWynOQAw2VpvwUBhi-sTlEog-YHSAX1mUStd1IDM",
+    relationship: "Direct Report",
+    text: "I've worked closely with Thiru at Turing and one thing that really stands out is how naturally he operates across execution, strategy and people leadership. He's been great at scaling distributed teams and driving high-quality LLM evaluation projects with top frontier AI labs. At the same time, he keeps the team motivated, aligned and moving in the right direction without losing momentum.",
+  },
+  {
     name: "Jingyi Sun",
     title: "Assistant Professor",
     company: "Stevens Institute of Technology",
     avatar: "https://media.licdn.com/dms/image/v2/C5603AQFg2cIcYoKIAA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1631366384782?e=1775692800&v=beta&t=-KgkAvnIytUh6MG6IBN7qoiW2I0z2qHVm7n31CnBJ4c",
+    relationship: "Managed Me Directly",
     text: "Thiru has been my RA for summer research and TA for the web mining class for two semesters. I am very impressed by his technical skills and working ethics. He did a fantastic job with both roles. He has excellent knowledge and skills of data analytics. Most importantly, Thiru is a reliable and responsible co-worker.",
   },
   {
@@ -604,6 +613,7 @@ export const recommendations = [
     title: "Associate Principal Specialist",
     company: "Temenos",
     avatar: "https://media.licdn.com/dms/image/v2/D5603AQFxbeFvxl78kA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1711428564700?e=1775692800&v=beta&t=XxVDdUbb_hKpyJAH9hVAjixEwdpueDR7bXWBL9B4Qwg",
+    relationship: "Managed Me Directly",
     text: "A person to trust with knowledge we can rely on. One of the fastest logical problem-solving experts I came across. Best wishes for your future.",
   },
   {
@@ -611,6 +621,7 @@ export const recommendations = [
     title: "Delivery Manager",
     company: "HTC Global Services",
     avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    relationship: "Managed Me Directly",
     text: "I know Thirunaavukkarasu for the last 3 years. He is willing to work on emerging technologies and ready to take on any challenging task. Very good at logical thinking.",
   },
   {
@@ -618,6 +629,7 @@ export const recommendations = [
     title: "Technical Product Owner",
     company: "Jetstar Asia Airways",
     avatar: "https://media.licdn.com/dms/image/v2/D5603AQH7w9i66MYk9Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1720099561612?e=1775692800&v=beta&t=GuZ4le8B1mIpW6ykTTFZsygz7IWrje6VsJTRdF5CYv4",
+    relationship: "Managed Me Directly",
     text: "Thirunaavukkarasu is a self-motivated and hard-working person. Fresh out of college, he showed a lot of interest in learning new tech stacks. He would go lengths to explore a better solution. I would definitely recommend Thirunaavukkarasu as a capable and efficient developer.",
   },
 ];

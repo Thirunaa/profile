@@ -745,10 +745,33 @@ function RecommendationsSection() {
                       alt={rec.name}
                       sx={{ width: 44, height: 44, border: '2px solid #222' }}
                     />
-                    <Box>
-                      <Typography variant="body2" sx={{ fontWeight: 600, color: '#f0f0f0' }}>
-                        {rec.name}
-                      </Typography>
+                    <Box sx={{ flex: 1 }}>
+                      <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, flexWrap: 'wrap' }}>
+                        <Typography variant="body2" sx={{ fontWeight: 600, color: '#f0f0f0' }}>
+                          {rec.name}
+                        </Typography>
+                        {rec.relationship && (
+                          <Box
+                            component="span"
+                            sx={{
+                              fontSize: '0.65rem',
+                              fontWeight: 600,
+                              px: 1,
+                              py: 0.25,
+                              borderRadius: 1,
+                              background: rec.relationship === 'Direct Report'
+                                ? 'rgba(255,197,0,0.12)'
+                                : 'rgba(100,200,255,0.1)',
+                              color: rec.relationship === 'Direct Report' ? '#ffc500' : '#7dd3fc',
+                              border: `1px solid ${rec.relationship === 'Direct Report' ? 'rgba(255,197,0,0.25)' : 'rgba(100,200,255,0.2)'}`,
+                              letterSpacing: '0.03em',
+                              textTransform: 'uppercase',
+                            }}
+                          >
+                            {rec.relationship}
+                          </Box>
+                        )}
+                      </Box>
                       <Typography variant="caption" sx={{ color: '#666666' }}>
                         {rec.title} · {rec.company}
                       </Typography>
